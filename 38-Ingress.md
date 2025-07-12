@@ -141,5 +141,6 @@ http://foo.bar.com/demo
 ```
 
 You should now see your Django app working correctly! 🎉
-```
+<img width="793" height="551" alt="Screenshot 2025-07-12 071225" src="https://github.com/user-attachments/assets/a4bec1d4-a787-48d6-9a41-bbcd7e191156" />
+
 
