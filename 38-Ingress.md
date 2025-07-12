@@ -10,6 +10,7 @@ Make sure your app is deployed and a service is exposed.
 ## 2️⃣ Create Ingress Resource
 
 ```yaml
+# 38-ingress.yml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
