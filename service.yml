@@ -5,8 +5,8 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: python-app
+    app: python-app #Match the selector of the service. Deploy labels=Service selector
   ports:
-      port: 80
-      targetPort: 8000 # Application is running on 8000 port
-      nodePort: 30007 # you can give by your choice
+    - port: 80
+      targetPort: 8000 #Target port is your application is running on
+      nodePort: 30007 #You can give by your choice

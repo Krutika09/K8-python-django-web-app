@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: python-app
+        app: python-app # Match the selector of the service. Deploy labels = Service selector
     spec:
       containers:
       - name: python-app
-        image: krutika09/k8-svc-python-app
+        image: krutika09/k8-svc-python-app:v1
         ports:
         - containerPort: 8000
